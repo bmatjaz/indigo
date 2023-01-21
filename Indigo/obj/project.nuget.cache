@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "iIRW65CMAiq9A91z9do1gxNn8+D3DgtuzCaZdwI/chwaN0qQfL/lkS6lZfzCoT8NhcuwFqxhCkShXTzZPSWJDQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matjaz\\source\\repos\\Indigo\\Indigo\\Indigo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matjaz\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\filehelpers\\3.5.2\\filehelpers.3.5.2.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\matjaz\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
