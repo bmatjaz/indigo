@@ -32,3 +32,7 @@ C:\Users\matjaz\source\repos\Indigo\Indigo\obj\Debug\net6.0\Indigo.genruntimecon
 C:\Users\matjaz\source\repos\Indigo\Indigo\obj\Debug\net6.0\ref\Indigo.dll
 C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\FileHelpers.dll
+C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\DataAccess.dll
+C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\Service.dll
+C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\Service.pdb
+C:\Users\matjaz\source\repos\Indigo\Indigo\bin\Debug\net6.0\DataAccess.pdb

@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Indigo.Models;
-using Indigo.Services;
+using Service;
+using DataAccess.Models;
+using Service.Services;
 
 namespace Indigo.Controllers
 {
@@ -9,13 +10,17 @@ namespace Indigo.Controllers
     [ApiController]
     public class LastWeekController : ControllerBase
     {
+        protected IRegionService _regionService;
+
+        public LastWeekController()
+        {
+            _regionService = new RegionService();
+        }
+
         [HttpGet]
         public IEnumerable<RegionAverageDTO> GetLastWeek()
         {
-            Service service = new Service();
-            List<RegionAverageDTO> listOfRegions = service.getSevenDayAverage();
-
-            return listOfRegions;
+            return _regionService.getSevenDayAverage();
         }
     }
 }
