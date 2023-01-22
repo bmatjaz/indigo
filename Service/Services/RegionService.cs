@@ -24,7 +24,7 @@ namespace Service.Services
             List<RegionDTO> listOfRegions = _regionRepository.getCsvForAll();
 
             if (name != null)
-                listOfRegions = listOfRegions.Where(region => region.regionName == name).ToList();
+                listOfRegions = listOfRegions.Where(region => region.regionName == name.ToUpper()).ToList();
 
             if (dateFrom != null)
                 listOfRegions = listOfRegions.Where(region => region.date >= DateTime.Parse(dateFrom)).ToList();
@@ -43,6 +43,10 @@ namespace Service.Services
             var groupedRegions = listOfRegions.GroupBy(region => region.regionName);
             List<RegionAverageDTO> averageList = new List<RegionAverageDTO>();
 
+            // get all grouped regions.
+            // Loop trough each region.
+            // We have 8 days so we can get the difference for day 7 from today because day7 - day8 = new cases in day7
+            // if confirmedUntilYesterday value is -1 we know that its day 8 and we just set the value there
             foreach (var group in groupedRegions)
             {
                 RegionAverageDTO regionDTO = new RegionAverageDTO();
@@ -67,6 +71,8 @@ namespace Service.Services
                 regionDTO.average = numberOfCasesLastSevenDays / numberOfReturnedDays;
                 averageList.Add(regionDTO);
             }
+            averageList = averageList.OrderByDescending(region => region.average).ToList();
+
             return averageList;
         }
     }

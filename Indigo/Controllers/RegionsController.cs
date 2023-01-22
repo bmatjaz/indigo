@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using DataAccess.Models;
 using Service.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Indigo.Controllers
 {
