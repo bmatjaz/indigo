@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wqK+UbVPzs7lBIJ/1VUc95XFmOn3ktBLwgdmawfVDa2lMD9ImL1523kEcQ6gbuS7ul8VtkEzoF45BLzfM1Egbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\matjaz\\source\\repos\\Indigo\\DataAccess\\DataAccess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\matjaz\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
